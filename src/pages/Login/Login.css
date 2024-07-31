@@ -1,0 +1,64 @@
+.login {
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.peer {
+  color: var(--green, #fda058);
+  text-align: left;
+  position: absolute;
+  left: 43px;
+  top: 140px;
+}
+.peer-span {
+  color: var(--green, #fda058);
+  font-size: 80px;
+  font-weight: 1000;
+}
+.div1 {
+    color: var(--darkblue, #21232d);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 47px;
+    top: 115px;
+  }
+.div2 {
+  color: var(--darkblue, #21232d);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 47px;
+  top: 142px;
+}
+.div3 {
+  color: var(--darkblue, #21232d);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 121px;
+  top: 829px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fox {
+  border-radius: 99.5px;
+  width: 199px;
+  height: 199px;
+  position: absolute;
+  left: 117px;
+  top: 340px;
+  object-fit: cover;
+}
+.kakaoLogin {
+  width: 201px;
+  height: 45px;
+  position: absolute;
+  left: 114px;
+  top: 730px;
+  object-fit: cover;
+}
