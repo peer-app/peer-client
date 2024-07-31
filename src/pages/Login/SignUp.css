@@ -1,0 +1,99 @@
+.SignUp {
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.SignUp .peer {
+  color: var(--green, #fda058);
+  text-align: left;
+  position: absolute;
+  left: 43px;
+  top: 145px;
+  width: 183px;
+  height: 93px;
+}
+.SignUp .peer-span {
+  color: var(--green, #fda058);
+  font-size: 80px;
+  font-weight: 800;
+}
+.SignUp .div1 {
+  color: var(--darkblue, #21232d);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 47px;
+  top: 115px;
+}
+.SignUp .div2 {
+  color: var(--darkblue, #21232d);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 47px;
+  top: 142px;
+}
+.SignUp .fox {
+  border-radius: 99.5px;
+  width: 199px;
+  height: 199px;
+  position: absolute;
+  left: 117px;
+  top: 340px;
+  object-fit: cover;
+}
+.SignUp .div3 {
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    left: 83px;
+    top: 650px;
+  }
+.SignUp .mentee-start {
+  background: #fda058;
+  border-radius: 10px;
+  width: 201px;
+  height: 45px;
+  position: absolute;
+  left: 115px;
+  top: 770px;
+  font-size: 15px;
+  font-family: "GowunDodum-Regular";
+  cursor: pointer;
+  border:none;
+}
+.SignUp .mentor-start {
+  background: #648f89;
+  border-radius: 10px;
+  width: 201px;
+  height: 45px;
+  position: absolute;
+  left: 115px;
+  top: 829px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "GowunDodum-Regular";
+  cursor: pointer;
+  border:none;
+}
+.SignUp .phone-num-input {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 274px;
+  height: 35px;
+  position: absolute;
+  left: 78px;
+  top: 673px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: "GowunDodum-Regular";
+}

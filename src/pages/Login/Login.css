@@ -3,19 +3,19 @@
   position: relative;
   overflow: hidden;
 }
-.peer {
+.login .peer {
   color: var(--green, #fda058);
   text-align: left;
   position: absolute;
   left: 43px;
   top: 140px;
 }
-.peer-span {
+.login .peer-span {
   color: var(--green, #fda058);
   font-size: 80px;
   font-weight: 1000;
 }
-.div1 {
+.login .div1 {
     color: var(--darkblue, #21232d);
     text-align: left;
     font-size: 18px;
@@ -24,7 +24,7 @@
     left: 47px;
     top: 115px;
   }
-.div2 {
+.login .div2 {
   color: var(--darkblue, #21232d);
   text-align: left;
   font-size: 18px;
@@ -33,7 +33,7 @@
   left: 47px;
   top: 142px;
 }
-.div3 {
+.login .div3 {
   color: var(--darkblue, #21232d);
   text-align: center;
   font-size: 18px;
@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: center;
 }
-.fox {
+.login .fox {
   border-radius: 99.5px;
   width: 199px;
   height: 199px;
@@ -54,7 +54,7 @@
   top: 340px;
   object-fit: cover;
 }
-.kakaoLogin {
+.login .kakaoLogin {
   width: 201px;
   height: 45px;
   position: absolute;

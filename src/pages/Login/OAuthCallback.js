@@ -22,7 +22,13 @@ export const OAuthCallback = () => {
           console.log('Login successful:', data);
           localStorage.setItem('refreshToken', data.refreshToken);
           localStorage.setItem('accessToken', data.accessToken);
-          navigate('/'); // 로그인 후 리다이렉션
+          if(data.role==="guest"){
+            navigate('/signup');// 로그인 후 리다이렉션
+          }else if(data.role==="mentor"){
+
+          }else if(data.role==="mentee"){
+
+          }
         })
         .catch(error => {
           console.error('Error during authentication:', error);
@@ -30,5 +36,10 @@ export const OAuthCallback = () => {
     }
   }, []);
 
-  return <div style={{ textAlign: 'center' }}>Loading...</div>;
+  return <div style={{ 
+    textAlign: 'center',
+    position: 'absolute',
+    top: '50%',
+    left: '47%',
+    fontSize: 'large' }}>Loading</div>;
 };
